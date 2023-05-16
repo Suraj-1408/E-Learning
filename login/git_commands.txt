@@ -1,0 +1,23 @@
+Key words used in Git:
+
+1. repository- place where file or programs are store.
+
+2. git init- it is first command that will run on git.
+	it is used to create a new blank repository.
+
+3.git status- is used to display stste of repository and staging area.
+ it allows to see the tracked ,untracked files and changes. Mostly used to display state between git add and git commit.
+
+4.git add- it adds the file to git staging area.
+ this area contains list of all the files that have recently changed.
+[git add file_name/folder_name]
+
+5.git commit- used to save changes to the local repository.
+[git commit -m "type message"]
+
+6.git log --oneline- use to display the output as one commit per line.
+
+7.git checkout- used to switch between branches in a repository. chechout the file from an older commit.
+ [git checkout -b filr_name.extension] or [git checkout -- filr_name.extension]
+
+8.git reset- is used to move repository back to previous commit , discarding any changes made after that commit.
